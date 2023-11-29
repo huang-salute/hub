@@ -17,7 +17,7 @@ jobs:
   torchub-job:
     uses: pytorch/test-infra/.github/workflows/linux_job.yml@main
     with:
-      runner: linux.g5.4xlarge.nvidia.gpu
+      runner: linux.g5.8xlarge.nvidia.gpu
       repository: pytorch/hub
       gpu-arch-type: cuda
       gpu-arch-version: 11.6
